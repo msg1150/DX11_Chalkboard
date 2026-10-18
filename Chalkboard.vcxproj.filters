@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <ClCompile Include="Source\Core\Application.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\Chalkboard\BoardCanvas.cpp">
+      <Filter>Source\Features\Chalkboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\Chalkboard\BoardScene.cpp">
+      <Filter>Source\Features\Chalkboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\Chalkboard\ImageFile.cpp">
+      <Filter>Source\Features\Chalkboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\CollisionEditor\CollisionGeometry.cpp">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Features\GPUPicking\GPUPickingSystem.cpp">
+      <Filter>Source\Features\GPUPicking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Camera.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Mesh.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Renderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Collision\BroadPhase\BroadPhaseSystem.cpp">
+      <Filter>Source\Physics\Collision\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Collision\Core\CollisionWorld.cpp">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Collision\Detection\CollisionDetector.cpp">
+      <Filter>Source\Physics\Collision\Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Query\Raycast.cpp">
+      <Filter>Source\Physics\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Window.cpp">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIManager.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIRenderer.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIWidget.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Core\Application.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\Chalkboard\BoardCanvas.h">
+      <Filter>Source\Features\Chalkboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\Chalkboard\BoardScene.h">
+      <Filter>Source\Features\Chalkboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\Chalkboard\ImageFile.h">
+      <Filter>Source\Features\Chalkboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\CollisionEditor\CollisionGeometry.h">
+      <Filter>Source\Features\CollisionEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Features\GPUPicking\GPUPickingSystem.h">
+      <Filter>Source\Features\GPUPicking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Camera.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ConstantBuffer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Mesh.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Renderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\BroadPhase\BroadPhaseSystem.h">
+      <Filter>Source\Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionMath.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionResult.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionTypes.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Core\CollisionWorld.h">
+      <Filter>Source\Physics\Collision\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Collision\Detection\CollisionDetector.h">
+      <Filter>Source\Physics\Collision\Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Query\Raycast.h">
+      <Filter>Source\Physics\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Window.h">
+      <Filter>Source\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UILayout.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIManager.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UINumericValue.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIPlacement.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIRenderer.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIScroll.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UISliderMath.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UITheme.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIWidget.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Chalkboard\BoardPS.hlsl">
+      <Filter>Shaders\Chalkboard</Filter>
+    </None>
+    <None Include="Shaders\Chalkboard\BoardVS.hlsl">
+      <Filter>Shaders\Chalkboard</Filter>
+    </None>
+    <None Include="Shaders\GPUPicking\PickingPS.hlsl">
+      <Filter>Shaders\GPUPicking</Filter>
+    </None>
+    <None Include="Shaders\GPUPicking\PickingVS.hlsl">
+      <Filter>Shaders\GPUPicking</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders" />
+    <Filter Include="Shaders\Chalkboard" />
+    <Filter Include="Shaders\GPUPicking" />
+    <Filter Include="Source" />
+    <Filter Include="Source\Core" />
+    <Filter Include="Source\Features" />
+    <Filter Include="Source\Features\Chalkboard" />
+    <Filter Include="Source\Features\CollisionEditor" />
+    <Filter Include="Source\Features\GPUPicking" />
+    <Filter Include="Source\Graphics" />
+    <Filter Include="Source\Input" />
+    <Filter Include="Source\Physics" />
+    <Filter Include="Source\Physics\Collision" />
+    <Filter Include="Source\Physics\Collision\BroadPhase" />
+    <Filter Include="Source\Physics\Collision\Core" />
+    <Filter Include="Source\Physics\Collision\Detection" />
+    <Filter Include="Source\Physics\Query" />
+    <Filter Include="Source\Platform" />
+    <Filter Include="Source\UI" />
+  </ItemGroup>
+</Project>
